@@ -1,4 +1,4 @@
-var numItems = 4;
+var numItems = 8;
 
 var countHandler = [];
 
@@ -179,7 +179,7 @@ for (var i = 0; i < numItems; ++i) {
     b.className = 'a' + i;
     b.style.border = '5px ridge #fa9502';
     b.style.margin = '10px';
-    b.style.height = '25vh';
+    b.style.height = '35vh';
     b.style.boxShadow= '3px 3px 3px 3px #888888'
     b.onclick = function () {
         var class_id = this.getAttribute('class');
